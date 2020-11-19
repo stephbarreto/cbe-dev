@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Clique Bem Estar</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i,900" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--    Aviso/Timer        -->
+    <section id="topbar" class="d-none d-lg-block full-text">
+        <div class="container clearfix">
+            <div class="text-center">
+                <p class="text-bold">APROVEITE, É SÓ HOJE!</p>
+                <p class="text-regular full-text" style="display: inline-block;">“Kit Você Sempre Bem” com 50% de desconto e em até 10x s/ juros</p>
+                <p class="text-regular" style="display: none;">“Kit Você Sempre Bem” com 50% de desconto e em até 10x s/ juros</p>
+                <span class="counter-box">
+                    <img src="assets/img/icons/clock.png" class="clock">
+                    <p class="counter-text" id="">Faltam: </p><span class="counter-timer" id="full"></span>
+
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!--    Header  -->
+    <header id="header">
+        <div class="container">
+            <div class="row">
+                <div id="logo" class="logo float-left">
+                    <a href="index.html"><img src="assets/img/clique_bem-estar.png" alt="Clique Bem Estar" class="img-fluid"></a>
+                </div>
+
+                <div id="search" class="align-self-center">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="O que você procura?" aria-label="O que você procura?" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="button"><i class='bx bx-search'></i></button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="top-btn" class="align-self-center justify-content-between">
+                    <button class="btn ico-discount">Clube de Descontos </button>
+                    <button class="btn ico-whatsapp">Compre pelo Whatsapp </button>
+                    <button class="btn ico-user">Olá, tudo bem?
+                        <b>Entre</b> ou <b>Cadastre-se</b> </button>
+                    <button class="btn ico-cart">
+                        <span class="badge badge-notify">0</span></button>
+
+                </div>
+            </div>
+        </div>
+        <div class="separator"></div>
+
+        <!--        Navegação   -->
+
+        <div class="container" id="navigation">
+            <div class="row justify-content-between">
+                <nav class="nav-menu d-none d-lg-block">
+                    <ul>
+                        <li class="menu"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="icofont-navigation-menu"></i> <b> Menu</b></a></li>
+                        <li><a href="#public">Saúde e bem-estar</a></li>
+                        <li><a href="#services">Cuidados pessoais</a></li>
+                        <li><a href="#marcas">Nossas marcas</a></li>
+                        <li><a href="#team">Kits exclusivos</a></li>
+                        <li class="red-btn"><a class="text-btn" href="#offers">Ofertas e Promoções</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!--    Carousel       -->
+    <section id="hero">
+        <div class="hero-container">
+            <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+
+                <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+                <div class="carousel-inner" role="listbox">
+
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active decor">
+                        <img id="bg-hero" src="assets/img/AdobeStock_355847208.png">
+                        <div class="carousel-container">
+                            <div class="carousel-content container">
+
+                                <h2>Para quem quer mais da vida.</h2>
+
+                                <img id="banner-img" src="assets/img/hero-img.png">
+
+                                <img id="banner-logo" src="assets/img/multisaude.png">
+
+                                <p class="animate__animated animate__fadeInUp">Ganhe mais força e energia para aproveitar mais a sua vida.</p>
+
+                                <p class="animate__animated animate__fadeInDown from"> R$ 63,70</p>
+
+                                <p class="animate__animated animate__fadeInDown to">R$55,90</p>
+
+                                <button class="">Comprar</button>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon icofont-rounded-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon icofont-rounded-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <main id="main">
+
+        <!--        Beneficios          -->
+        <section id="benefits" class="benefits">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 icon-box">
+                        <img src="assets/img/truck.png" class="icon">
+                        <p class="description"><b>Frete grátis</b> nas compras acima de R$ 100,00</p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 icon-box">
+                        <img src="assets/img/payment.png" class="icon">
+                        <p class="description"><b>Pague à vista ou parcele</b> em até 12x sem juros</p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 icon-box">
+                        <img src="assets/img/brazil.png" class="icon">
+                        <p class="description"><b>Entregamos</b> para todo o Brasil</p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 icon-box">
+                        <img src="assets/img/security.png" class="icon">
+                        <p class="description"><b>Segurança e sigilo</b> da compra a entrega</p>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <!--            <div class="division"></div>-->
+
+            <!-- ======= Our Team Section ======= -->
+            <section id="public" class="public">
+                <div class="container">
+                    <div class="section-title">
+                        <h2>Saúde e bem-estar para todos, o tempo todo</h2>
+                    </div>
+                    <div class="row justify-content-center">
+
+                        <div class="col-xl-2 col-lg-3 col-md-5">
+                            <div class="category">
+                                <div class="pic"><img src="assets/img/img.png" class="img-fluid" alt=""></div>
+                                <div class="category-info">
+                                    <span>Saúde da Mulher</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-2 col-lg-3 col-md-5">
+                            <div class="category">
+                                <div class="pic"><img src="assets/img/man.png" class="img-fluid" alt=""></div>
+                                <div class="category-info">
+                                    <span>Saúde do Homem</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-2 col-lg-3 col-md-5">
+                            <div class="category">
+                                <div class="pic"><img src="assets/img/woman.png" class="img-fluid" alt=""></div>
+                                <div class="category-info">
+                                    <span>Cuidados do dia-a-dia</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-2 col-lg-3 col-md-5">
+                            <div class="category">
+                                <div class="pic"><img src="assets/img/senior.png" class="img-fluid" alt=""></div>
+                                <div class="category-info">
+                                    <span>Melhor Idade</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-2 col-lg-3 col-md-5">
+                            <div class="category">
+                                <div class="pic"><img src="assets/img/mom.png" class="img-fluid" alt=""></div>
+                                <div class="category-info">
+                                    <span>Mamãe e Bebê</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="offers" class="offers">
+                <div class="container">
+                    <div class="section-title">
+                        <h2>Ofertas Especiais</h2>
+                    </div>
+                    <div class="row">
+                        <div class="card">
+                            <img class="card-img-top" src="assets/img/product_1.png" alt="">
+                            <div class="card-body">
+                                <div class="discount">
+                                    <span>-10%</span>
+                                </div>
+                                <h5 class="card-title">Forteviron WPLAB® - Leve mais por menos - 2 caixas com 60 comprimidos</h5>
+                                <div class="stars">
+                                    <img src="assets/img/star.png">
+                                </div>
+                                <div class="offer-price">
+                                    <span class="from">R$<span class="line-through">00,00</span></span>
+                                    <span class="to">R$00,00</span>
+                                    <p class="from">-10% à vista ou 3x R$ 0,00</p>
+                                </div>
+                                <button type="button">Comprar</button>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img class="card-img-top" src="assets/img/product_2.png" alt="">
+                            <div class="card-body">
+                                <div class="discount">
+                                    <span>-10%</span>
+                                </div>
+                                <h5 class="card-title">Poliviron® A-Z - Kit com 3 unidades (30 cápsulas cada) </h5>
+                                <div class="stars">
+                                    <img src="assets/img/star.png">
+                                </div>
+                                <div class="offer-price">
+                                    <span class="from">R$<span class="line-through">00,00</span></span>
+                                    <span class="to">R$00,00</span>
+                                    <p class="from">-10% à vista ou 3x R$ 0,00</p>
+                                </div>
+                                <button type="button">Comprar</button>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img class="card-img-top" src="assets/img/product_3.png" alt="">
+                            <div class="card-body">
+                                <div class="discount">
+                                    <span>-10%</span>
+                                </div>
+                                <h5 class="card-title">Nervocalm WPLAB® - 60 comprimidos</h5>
+                                <div class="stars">
+                                    <img src="assets/img/star.png">
+                                </div>
+                                <div class="offer-price">
+                                    <span class="from">R$<span class="line-through">00,00</span></span>
+                                    <span class="to">R$00,00</span>
+                                    <p class="from">2x de R$ 0,00 sem juros</p>
+                                </div>
+                                <button type="button">Comprar</button>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img class="card-img-top" src="assets/img/product_4.png" alt="">
+                            <div class="card-body">
+                                <div class="discount">
+                                    <span>-10%</span>
+                                </div>
+                                <h5 class="card-title">Intestilivre WPLAB® - 20 comprimidos</h5>
+                                <div class="stars">
+                                    <img src="assets/img/star.png">
+                                </div>
+                                <div class="offer-price">
+                                    <span class="from">R$<span class="line-through">00,00</span></span>
+                                    <span class="to">R$00,00</span>
+                                    <p class="from">Frete grátis para Sul e Sudeste</p>
+                                </div>
+                                <button type="button">Comprar</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section><!-- End About Us Section -->
+
+            <section id="banner" class="banner">
+                <div class="container">
+                    <div class="col-lg-12 text-center">
+                        <h6>Como está sua imunidade?</h6>
+                        <h3>Ter energia durante o dia e uma boa noite de sono podem aumentar sua imunidade.
+                        </h3>
+                        <button>Confira</button>
+                    </div>
+                </div>
+            </section>
+
+            <section id="offers" class="offers">
+                <div class="container">
+                    <div class="section-title">
+                        <h2>Para uma vida saudável</h2>
+                    </div>
+                    <div class="row">
+                        <div class="card">
+                            <img class="card-img-top" src="assets/img/product_1.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Forteviron WPLAB® - Leve mais por menos - 2 caixas com 60 comprimidos</h5>
+                                <div class="stars">
+                                    <img src="assets/img/star.png">
+                                </div>
+                                <div class="offer-price">
+                                    <span class="from">R$<span class="line-through">00,00</span></span>
+                                    <span class="to">R$00,00</span>
+                                    <p class="from">-10% à vista ou 3x R$ 0,00</p>
+                                </div>
+                                <button type="button">Comprar</button>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img class="card-img-top" src="assets/img/product_2.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Poliviron® A-Z - Kit com 3 unidades (30 cápsulas cada) </h5>
+                                <div class="stars">
+                                    <img src="assets/img/star.png">
+                                </div>
+                                <div class="offer-price">
+                                    <span class="from">R$<span class="line-through">00,00</span></span>
+                                    <span class="to">R$00,00</span>
+                                    <p class="from">-10% à vista ou 3x R$ 0,00</p>
+                                </div>
+                                <button type="button">Comprar</button>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img class="card-img-top" src="assets/img/product_3.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Nervocalm WPLAB® - 60 comprimidos</h5>
+                                <div class="stars">
+                                    <img src="assets/img/star.png">
+                                </div>
+                                <div class="offer-price">
+                                    <span class="from">R$<span class="line-through">00,00</span></span>
+                                    <span class="to">R$00,00</span>
+                                    <p class="from">2x de R$ 0,00 sem juros</p>
+                                </div>
+                                <button type="button">Comprar</button>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img class="card-img-top" src="assets/img/product_4.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Intestilivre WPLAB® - 20 comprimidos</h5>
+                                <div class="stars">
+                                    <img src="assets/img/star.png">
+                                </div>
+                                <div class="offer-price">
+                                    <span class="from">R$<span class="line-through">00,00</span></span>
+                                    <span class="to">R$00,00</span>
+                                    <p class="from">Frete grátis para Sul e Sudeste</p>
+                                </div>
+                                <button type="button">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--            Banner 2            -->
+            <section id="" class="">
+                <div class="container">
+                    <div id="banner_2" class="banner_2">
+                        <div class="col-lg-12 justify-content-center">
+                            <div class="text-center">
+                                <img src="assets/img/tpm%20reduxina.png">
+                            </div>
+                            <div class="top-right">
+                                <h4>Aproveite o melhor da vida sem se preocupar com as dores e irritabilidade do período pré-menstrual.</h4>
+                                <button>Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--            Os mais vendidos    -->
+            <section id="offers" class="offers">
+                <div class="container">
+                    <div class="section-title">
+                        <h2>Os mais vendidos</h2>
+                    </div>
+                    <div class="row">
+                        <div class="card">
+                            <img class="card-img-top" src="assets/img/product_1.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Forteviron WPLAB® - Leve mais por menos - 2 caixas com 60 comprimidos</h5>
+                                <div class="stars">
+                                    <img src="assets/img/star.png">
+                                </div>
+                                <div class="offer-price">
+                                    <span class="from">R$<span class="line-through">00,00</span></span>
+                                    <span class="to">R$00,00</span>
+                                    <p class="from">-10% à vista ou 3x R$ 0,00</p>
+                                </div>
+                                <button type="button">Comprar</button>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img class="card-img-top" src="assets/img/product_2.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Poliviron® A-Z - Kit com 3 unidades (30 cápsulas cada) </h5>
+                                <div class="stars">
+                                    <img src="assets/img/star.png">
+                                </div>
+                                <div class="offer-price">
+                                    <span class="from">R$<span class="line-through">00,00</span></span>
+                                    <span class="to">R$00,00</span>
+                                    <p class="from">-10% à vista ou 3x R$ 0,00</p>
+                                </div>
+                                <button type="button">Comprar</button>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img class="card-img-top" src="assets/img/product_3.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Nervocalm WPLAB® - 60 comprimidos</h5>
+                                <div class="stars">
+                                    <img src="assets/img/star.png">
+                                </div>
+                                <div class="offer-price">
+                                    <span class="from">R$<span class="line-through">00,00</span></span>
+                                    <span class="to">R$00,00</span>
+                                    <p class="from">2x de R$ 0,00 sem juros</p>
+                                </div>
+                                <button type="button">Comprar</button>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img class="card-img-top" src="assets/img/product_4.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Intestilivre WPLAB® - 20 comprimidos</h5>
+                                <div class="stars">
+                                    <img src="assets/img/star.png">
+                                </div>
+                                <div class="offer-price">
+                                    <span class="from">R$<span class="line-through">00,00</span></span>
+                                    <span class="to">R$00,00</span>
+                                    <p class="from">Frete grátis para Sul e Sudeste</p>
+                                </div>
+                                <button type="button">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--            Banners 3 e 4   -->
+
+            <section class="banners" id="banners">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div id="banner_3">
+                                <div class="top-right">
+                                    <h4>Aproveite os bons momentos sem alergias ou irritações.</h4>
+                                    <a>Confira</a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div id="banner_4">
+                                <div class="top-right">
+                                    <h4>Complemente sua rotina com <b>mais energia</b>.</h4>
+                                    <button>Descubra</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </section>
+
+        <!--        Nossas marcas-->
+
+        <section id="marcas" class="marcas">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Nossas marcas</h2>
+                </div>
+                <div class="row justify-content-between">
+
+                    <div class="col-xl-2 col-lg-3 col-md-5">
+                        <div class="category">
+                            <div class="pic"><img src="assets/img/intestilivre.png" class="img-fluid" alt=""></div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-2 col-lg-3 col-md-5">
+                        <div class="category">
+                            <div class="pic"><img src="assets/img/forteviron_2.png" class="img-fluid" alt=""></div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-2 col-lg-3 col-md-5">
+                        <div class="category">
+                            <div class="pic"><img src="assets/img/nervocalm.png" class="img-fluid" alt=""></div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-2 col-lg-3 col-md-5">
+                        <div class="category">
+                            <div class="pic"><img src="assets/img/logo-energiton.png" class="img-fluid" alt=""></div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-2 col-lg-3 col-md-5">
+                        <div class="category">
+                            <div class="pic"><img src="assets/img/forteviron.png" class="img-fluid" alt=""></div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!--        Newsletter          -->
+
+        <section class="newsletter" id="newsletter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div id="newsletter-form">
+                            <div class="col-lg-8" id="text-area">
+                                <h4>Sem tempo para acompanhar nossas ofertas e promoções?</h4>
+                                <p>Fique tranquilo, levamos até você os melhores produtos, com os melhores preços. diretamente no seu e-mail. Cadastre agora:</p>
+
+                                <form>
+                                    <input placeholder="Nome" class="newsletter-input" class="form-input">
+                                    <input placeholder="E-mail" class="newsletter-input" class="form-input">
+                                    <button>Cadastrar</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main><!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row footer-division">
+                    <div class="col-lg-2 col-md-5 footer-links">
+                        <h4>Sobre Nós</h4>
+                        <ul>
+                            <li><a href="#">Quem somos</a></li>
+                            <li><a href="#">Clube de fidelidade</a></li>
+                            <li><a href="#">Seja um afiliado</a></li>
+                            <li><a href="#">Blog do Bem Estar</a></li>
+                            <li><a href="#">Fale conosco</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2 col-md-5 footer-links">
+                        <h4>Dúvidas</h4>
+                        <ul>
+                            <li><a href="#">Perguntas frequentes</a></li>
+                            <li><a href="#">Garantia, trocas e devoluções</a></li>
+                            <li><a href="#">Prazos e entrega</a></li>
+                            <li><a href="#">Políticas de privacidade</a></li>
+                            <li><a href="#">Termos de uso</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Atendimento</h4>
+                        <h6>(41) 3377-6464</h6>
+                        <h6>(41) 99178-5359</h6>
+
+                        <p>Segunda à sexta: das 8h30 às 18h30.
+                            Sábados: das 9h00 às 13h00.</p>
+
+                        <p>sac@cliquebemestar.com.br</p>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 footer-newsletter">
+                        <h4>Formas de Pagamento</h4>
+                        <img src="assets/img/payments.png">
+
+                        <img src="assets/img/100%25_seguro.png" class="seguro">
+                        <img src="assets/img/footer-sigilo.png" class="seguro">
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-5 footer-links">
+                    <img src="assets/img/clique_bem-estar_(branca).png" class="logo">
+                    <div class="social-links">
+                        <a href="#" class="facebook"><img src="assets/img/icons/facebook.png"></a>
+                        <a href="#" class="youtube"><img src="assets/img/icons/youtube.png"></a>
+                        <a href="#" class="instagram"><img src="assets/img/icons/instagram.png"></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-10 col-md-5">
+
+                    <div class="col-lg-12 col-md-5 footer-text">
+                        <p class="about">
+                            Somos muito mais que uma loja virtual de produtos saudáveis. Temos uma filosofia de vida que valoriza a saúde física e mental do ser humano. Para pessoas de bem com a vida e de bem com o mundo. Oferece um variado mix de produtos, destinados aos mais diversos tipos de público, desde atletas até mesmo pessoas que querem, simplesmente, cuidar da saúde, da beleza e do bem estar.
+                        </p>
+
+                    </div>
+                    <div class="col-lg-6 col-md-5 footer-text">
+                        <p class="copyright">
+                            FARMÁCIA HOMEOPÁTICA DR WALDEMIRO PEREIRA - CNPJ: 76.440.528/0005-77
+                            Av. Mal. Floriano Peixoto, 7709 - Boqueirão - Curitiba/PR - CEP: 81650-000
+                            Responsável Técnico: Aline Tavares Henke - CRF 32276 - PR
+                            Licença Sanitária nº 03.092/2016 - Autorização de Funcionamento nº 0.92942.3
+                            WP Lab: www.wplab.ind.br - WP Farma: www.wpfarma.com.br
+                        </p>
+                        <div class="banner-anvisa">
+                            <p>O <b>Clique Bem Estar</b> segue
+                                as determinações da ANVISA</p>
+                            <img src="assets/img/anvisa-logo.png" class="anvisa-logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="credits">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-5 footer-text">
+                        <p class="">
+                            © 2020 Clique Bem Estar - Todos os direitos reservados
+<!--                            <img src="assets/img/logo_garrula.png">-->
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer><!-- End Footer -->
+
+    <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/jquery-sticky/jquery.sticky.js"></script>
+    <script src="assets/vendor/venobox/venobox.min.js"></script>
+    <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="assets/vendor/counterup/counterup.min.js"></script>
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
