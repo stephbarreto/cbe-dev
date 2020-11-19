@@ -1,4 +1,4 @@
-var countDownDate = new Date("Oct 29, 2020 00:00:00").getTime();
+var countDownDate = new Date("Nov 29, 2020 00:00:00").getTime();
 var x = setInterval(function() {
 
   // Get today's date and time
@@ -12,13 +12,13 @@ var x = setInterval(function() {
   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
+    hours = hours < 10 ? "0" + hours : hours;
+    minutes = minutes < 10 ? "0" + minutes : minutes;
+    seconds = seconds < 10 ? "0" + seconds : seconds;
   // Display the result in the element with id="demo"
   document.getElementById("full").innerHTML = hours + ":"
   + minutes + ":" + seconds + "";
     
-//    document.getElementById("short").innerHTML = hours + ":"
-//  + minutes;
     
 }, 1000);
 
