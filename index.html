@@ -80,11 +80,24 @@
 
         <!--        Navegação   -->
 
+        <div id="mySidenav" class="sidenav">
+            
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="menu-header">
+                
+            </div>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+
         <div class="container" id="navigation">
             <div class="row justify-content-between">
                 <nav class="nav-menu d-none d-lg-block">
+
                     <ul>
-                        <li class="menu"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="icofont-navigation-menu"></i> <b> Menu</b></a></li>
+                        <li class="menu"><a href="javascript:void(0)" class="closebtn" onclick="openNav()"><i class="icofont-navigation-menu"></i> <b> Menu</b></a></li>
                         <li><a href="#public">Saúde e bem-estar</a></li>
                         <li><a href="#services">Cuidados pessoais</a></li>
                         <li><a href="#marcas">Nossas marcas</a></li>
@@ -174,17 +187,15 @@
 
 
             </div>
-            <!--            <div class="division"></div>-->
-
-            <!-- ======= Our Team Section ======= -->
+            
             <section id="public" class="public">
                 <div class="container">
-                    <div class="section-title">
+                    <div class="section-title ">
                         <h2>Saúde e bem-estar para todos, o tempo todo</h2>
                     </div>
                     <div class="row justify-content-center">
 
-                        <div class="col-xl-2 col-lg-3 col-md-5">
+                        <div class="col-xl-2 col-lg-3 col-md-5 div-category">
                             <div class="category">
                                 <div class="pic"><img src="assets/img/img.png" class="img-fluid" alt=""></div>
                                 <div class="category-info">
@@ -193,7 +204,7 @@
                             </div>
                         </div>
 
-                        <div class="col-xl-2 col-lg-3 col-md-5">
+                        <div class="col-xl-2 col-lg-3 col-md-5 div-category">
                             <div class="category">
                                 <div class="pic"><img src="assets/img/man.png" class="img-fluid" alt=""></div>
                                 <div class="category-info">
@@ -202,7 +213,7 @@
                             </div>
                         </div>
 
-                        <div class="col-xl-2 col-lg-3 col-md-5">
+                        <div class="col-xl-2 col-lg-3 col-md-5 div-category">
                             <div class="category">
                                 <div class="pic"><img src="assets/img/woman.png" class="img-fluid" alt=""></div>
                                 <div class="category-info">
@@ -211,7 +222,7 @@
                             </div>
                         </div>
 
-                        <div class="col-xl-2 col-lg-3 col-md-5">
+                        <div class="col-xl-2 col-lg-3 col-md-5 div-category">
                             <div class="category">
                                 <div class="pic"><img src="assets/img/senior.png" class="img-fluid" alt=""></div>
                                 <div class="category-info">
@@ -220,7 +231,7 @@
                             </div>
                         </div>
 
-                        <div class="col-xl-2 col-lg-3 col-md-5">
+                        <div class="col-xl-2 col-lg-3 col-md-5 div-category">
                             <div class="category">
                                 <div class="pic"><img src="assets/img/mom.png" class="img-fluid" alt=""></div>
                                 <div class="category-info">
@@ -318,7 +329,7 @@
 
                     </div>
                 </div>
-            </section><!-- End About Us Section -->
+            </section>
 
             <section id="banner" class="banner">
                 <div class="container">
@@ -600,7 +611,7 @@
         <div class="footer-top">
             <div class="container">
                 <div class="row footer-division">
-                    <div class="col-lg-2 col-md-5 footer-links">
+                    <div class="col-lg-2 col-md-5 footer-links links">
                         <h4>Sobre Nós</h4>
                         <ul>
                             <li><a href="#">Quem somos</a></li>
@@ -611,7 +622,7 @@
                         </ul>
                     </div>
 
-                    <div class="col-lg-2 col-md-5 footer-links">
+                    <div class="col-lg-2 col-md-5 footer-links links">
                         <h4>Dúvidas</h4>
                         <ul>
                             <li><a href="#">Perguntas frequentes</a></li>
@@ -622,7 +633,7 @@
                         </ul>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 footer-links">
+                    <div class="col-lg-3 col-md-6 footer-links infos">
                         <h4>Atendimento</h4>
                         <h6>(41) 3377-6464</h6>
                         <h6>(41) 99178-5359</h6>
@@ -687,7 +698,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-5 footer-text">
-                        <p class="">
+                        <p class="rights">
                             © 2020 Clique Bem Estar - Todos os direitos reservados
                             <img src="assets/img/logo_garrula.png">
                         </p>
@@ -698,7 +709,7 @@
         </div>
     </footer><!-- End Footer -->
 
-    <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+<!--    <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>-->
 
     <!-- Vendor JS Files -->
     <script src="assets/vendor/jquery/jquery.min.js"></script>
@@ -717,6 +728,4 @@
     <script src="assets/js/main.js"></script>
     <script src="assets/js/script.js"></script>
 
-</body>
-
-</html>
+</body></html>
