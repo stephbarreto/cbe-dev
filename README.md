@@ -1,1 +1,1 @@
-Projeto desenvolvido para implementação de interface para e-commerce. 
+Projeto desenvolvido para implementação de interface para teste da Nerdweb. 
